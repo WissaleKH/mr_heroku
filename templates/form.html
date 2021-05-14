@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <form action = "http://localhost:5000/result" method = "POST">
+        <p>Age <input type = "text" name = "Age" /></p>
+
+<tr>
+    <br>
+    <br>
+            <th>Gender</th>
+            <td>
+            <select id="Gender" name="Gender">
+               <option value="0">female</option>
+               <option value="1">male</option>
+               <option value="2">trans</option>
+            </select>
+            </td>
+            </tr>
+        <br>
+        <br>
+
+            <tr>
+            <th>family_history</th>
+            <td>
+            <input type="radio" name="family_history" value="1" checked>Yes
+            <input type="radio" name="family_history" value="0">No
+            </td>
+            </tr>
+<br>
+        <br>
+            <tr>
+            <th>benefits</th>
+            <td>
+            <select id="benefits" name="benefits">
+               <option value="0">Don't know</option>
+               <option value="1">No</option>
+               <option value="2">Yes</option>
+            </select>
+            </td>
+            </tr>
+<br>
+        <br>
+            <tr>
+            <th>care_options</th>
+            <td>
+            <select id="care_options" name="care_options">
+               <option value="0">No</option>
+               <option value="1">Not sure</option>
+               <option value="2">Yes</option>
+            </select>
+            </td>
+            </tr>
+<br>
+        <br>
+            <tr>
+            <th>anonymity</th>
+            <td>
+            <select id="anonymity" name="anonymity">
+               <option value="0">Don't know</option>
+               <option value="1">No</option>
+               <option value="2">Yes</option>
+            </select>
+            </td>
+            </tr>
+<br>
+        <br>
+            <tr>
+            <th>leave</th>
+            <td>
+            <select id="leave" name="leave">
+               <option value="0">Don't know</option>
+               <option value="1">Somewhat difficult</option>
+               <option value="2">Somewhat easy</option>
+               <option value="2">Very difficult</option>
+               <option value="2">Very easy</option>
+            </select>
+            </td>
+            </tr>
+<br>
+        <tr>
+    <br>
+    <br>
+            <th>work_interfere</th>
+            <td>
+            <select id="work_interfere" name="work_interfere">
+               <option value="0">Don't know</option>
+               <option value="1">Never</option>
+               <option value="2">Often</option>
+               <option value="2">Rarely</option>
+               <option value="2">Sometimes</option>
+            </select>
+            </td>
+            </tr>
+        <br>
+            </table>
+            <div class="btns">
+            <button type="reset" class="btn btn-clear">Reset</button>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+            </div>
+            </form>
+
+         </div>
+
+
+      </section>
+
+
+
+
+   </body>
+</html>
