@@ -12,3 +12,9 @@ scikit-learn==0.24.2
 scipy==1.6.3
 threadpoolctl==2.1.0
 Werkzeug==2.0.0
+Flask-Celery==2.4.3
+Flask-Login==0.4.1
+flask-oidc==1.4.0
+Flask-Script==2.0.6
+Flask-Session==0.3.1
+Flask-Sessionstore==0.4.5
