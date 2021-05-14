@@ -4,8 +4,7 @@ import pickle
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 app = Flask(__name__)
-mod = "C:/Users/pc/Desktop/LR2.pkl"
-model = pickle.load(open(mod, 'rb'))
+model = pickle.load(open('LR2.pkl', 'rb'))
 
 
 @app.route("/")
