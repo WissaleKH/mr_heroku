@@ -1,1 +1,1 @@
-web: gunicorn mr.wsgi:server
+web: gunicorn mr:server
